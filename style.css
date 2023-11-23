@@ -1,8 +1,17 @@
 .c-item {
-    height:680px;
+    height:30em;
 }
 .c-img {
     height: 100%;
     object-fit:cover;
     filter: brightness(0.6);
+}
+.navbar-brand {
+    font-family: 'Homemade Apple', cursive;
+    font-size:25px;
+}
+.nav-link {
+    font-family: 'Reenie Beanie', cursive;
+    font-size:20px;
+    font-weight:bold;
 }

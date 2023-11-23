@@ -2,81 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Benjamin Franklin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benjamin Franklin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Reenie+Beanie&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-<!--start of nav-->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Benjamin Franklin</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Early Years</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Major Accomplishments</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Significant Contributions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Notable Challenges/Events</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-<!--end of nav-->
-<!--start of carousel-->
-<div id="hero-carousel" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!--start of nav-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Benjamin Franklin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Early Years</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Major Accomplishments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Significant Contributions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notable Challenges/Events</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end of nav-->
+  <!--start of carousel-->
+  <div id="hero-carousel" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="imgs/benji-carousel-1.jpg" class="d-block w-100 c-img" alt="...">
+      </div>
+      <div class="carousel-item c-item">
+        <img src="imgs/join-or-die-carousel.jpg" class="d-block w-100 c-img" alt="...">
+      </div>
+      <div class="carousel-item c-item">
+        <img src="imgs/b.j.-kite-carousel.jpg" class="d-block w-100 c-img" alt="...">
+      </div>
+      <div class="carousel-caption top-0 mt-4">
+        <p class="mt-5 fs-3 text-uppercase">Autobiography</p>
+        <h1 class="display-1 fw-bolder">Benjamin Franklin</h1>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active c-item">
-      <img src="imgs/ps-benji-carousel-1.png" class="d-block w-100 c-img" alt="...">
-    </div>
-    <div class="carousel-item c-item">
-      <img src="imgs/ps-benji-carousel-1.png" class="d-block w-100 c-img" alt="...">
-    </div>
-    <div class="carousel-item c-item">
-      <img src="imgs/benji-carousel-1.jpg" class="d-block w-100 c-img" alt="...">
-    </div>
-    <div class="carousel-caption top-0 mt-4">
-      <p class="mt-5 fs-3 text-uppercase">Autobiography</p>
-      <h1 class="display-1 fw-bolder">Benjamin Franklin</h1>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!--end of carousel-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <!--end of carousel-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
