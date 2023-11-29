@@ -1,3 +1,8 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
 .c-item {
     height:30em;
 }
@@ -25,15 +30,14 @@
 /*who*/
 .who {
     background-image: url(imgs/b.j.-kite-carousel.jpg);
-    transition: 0.5s;
+    object-fit:cover;
 }
 .who .question {
     font-family: 'Red Hat Display', sans-serif;
-    transition: 0.5s;
 }
 .who:hover .question {
     transition:0.5s;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 /*early*/
 .early {
