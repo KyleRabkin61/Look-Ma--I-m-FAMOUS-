@@ -26,10 +26,14 @@
 .who {
     background-image: url(imgs/b.j.-kite-carousel.jpg);
     transition: 0.5s;
+    background-size:cover;
+    background-position:center center;
+    box-shadow:5px 5px 5px darkslategrey;
 }
 .who .question {
     font-family: 'Red Hat Display', sans-serif;
     transition: 0.5s;
+    font-size:1.5rem;
 }
 .who:hover .question {
     transition:0.5s;
@@ -39,12 +43,20 @@
 .early {
     background-image: url(imgs/b.j.-kite-carousel.jpg);
     transition: 0.5s;
+    background-size:cover;
+    background-position:center center;
+    box-shadow:5px 5px 5px darkslategrey;
 }
 .early .question {
     font-family: 'Red Hat Display', sans-serif;
     transition: 0.5s;
+    font-size:1.5rem;
+    padding:;
 }
 .early:hover .question {
     transition:0.5s;
     transform:scale(1.2);
+}
+.description {
+    box-shadow:5px 5px 5px darkslategrey;
 }
