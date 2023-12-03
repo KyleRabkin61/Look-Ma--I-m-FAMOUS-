@@ -47,6 +47,7 @@
 /*early*/
 .early {
     background-image: url(imgs/kid-bj.jpg);
+    /*Benton, Michael. “Benjamin Franklin.” Benjamin Franklin, benjaminfranklinbio.com/benjamin-franklin-as-a-child/131/. Accessed 3 Dec. 2023.*/
     transition: 0.5s;
     background-size:cover;
     box-shadow:5px 5px 5px darkslategrey;
@@ -63,7 +64,8 @@
 }
 /*major*/
 .major {
-    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    background-image: url(imgs/b.j.-statue.jpg);
+    /*Liski, Randy von. “Benjamin Franklin Statue, Franklin Life Insurance, Springfield, Illinois.” Flickr, Yahoo!, 3 Dec. 2023, www.flickr.com/photos/myoldpostcards/52030744257.*/
     transition: 0.5s;
     background-size:cover;
     background-position:center center;
@@ -121,4 +123,19 @@
 }
 footer {
     font-family: 'Red Hat Display', sans-serif;
+}
+.video {
+    transition: 0.5s;
+    box-shadow:5px 5px 5px darkslategrey;
+    background-size:cover;
+    background-position:center center;
+}
+.video .question {
+    font-family: 'Red Hat Display', sans-serif;
+    transition: 0.5s;
+}
+.video:hover .question {
+    transition:0.5s;
+    transform: scale(1.2);
+}
 }
