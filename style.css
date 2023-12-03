@@ -61,4 +61,8 @@
 }
 .description {
     box-shadow:5px 5px 5px darkslategrey;
+    font-family: 'Dosis', sans-serif;
+}
+footer {
+    font-family: 'Red Hat Display', sans-serif;
 }
