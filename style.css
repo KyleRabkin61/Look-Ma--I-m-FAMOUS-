@@ -29,9 +29,12 @@
 }
 /*who*/
 .who {
-    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    background-image: url(imgs/who-benji.jpg);
+    /*“Archives.” White House Paintings: Benjamin Franklin by David Martin (1767) | JFK Library, www.jfklibrary.org/asset-viewer/archives/JFKWHP/1962/Month%2003/Day%2009/JFKWHP-1962-03-09-E. Accessed 3 Dec. 2023.*/
     transition: 0.5s;
     box-shadow:5px 5px 5px darkslategrey;
+    background-size:cover;
+    background-position:center center;
 }
 .who .question {
     font-family: 'Red Hat Display', sans-serif;
@@ -43,10 +46,9 @@
 }
 /*early*/
 .early {
-    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    background-image: url(imgs/kid-bj.jpg);
     transition: 0.5s;
     background-size:cover;
-    background-position:center center;
     box-shadow:5px 5px 5px darkslategrey;
 }
 .early .question {
@@ -56,6 +58,60 @@
     padding:;
 }
 .early:hover .question {
+    transition:0.5s;
+    transform:scale(1.2);
+}
+/*major*/
+.major {
+    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    transition: 0.5s;
+    background-size:cover;
+    background-position:center center;
+    box-shadow:5px 5px 5px darkslategrey;
+}
+.major .question {
+    font-family: 'Red Hat Display', sans-serif;
+    transition: 0.5s;
+    font-size:1.5rem;
+    padding:;
+}
+.major:hover .question {
+    transition:0.5s;
+    transform:scale(1.2);
+}
+/*sig*/
+.sig {
+    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    transition: 0.5s;
+    background-size:cover;
+    background-position:center center;
+    box-shadow:5px 5px 5px darkslategrey;
+}
+.sig .question {
+    font-family: 'Red Hat Display', sans-serif;
+    transition: 0.5s;
+    font-size:1.5rem;
+    padding:;
+}
+.sig:hover .question {
+    transition:0.5s;
+    transform:scale(1.2);
+}
+/*note*/
+.note {
+    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    transition: 0.5s;
+    background-size:cover;
+    background-position:center center;
+    box-shadow:5px 5px 5px darkslategrey;
+}
+.note .question {
+    font-family: 'Red Hat Display', sans-serif;
+    transition: 0.5s;
+    font-size:1.5rem;
+    padding:;
+}
+.note:hover .question {
     transition:0.5s;
     transform:scale(1.2);
 }
