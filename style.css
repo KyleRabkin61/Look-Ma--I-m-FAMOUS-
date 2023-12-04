@@ -56,7 +56,6 @@
     font-family: 'Red Hat Display', sans-serif;
     transition: 0.5s;
     font-size:1.5rem;
-    padding:;
 }
 .early:hover .question {
     transition:0.5s;
@@ -75,7 +74,6 @@
     font-family: 'Red Hat Display', sans-serif;
     transition: 0.5s;
     font-size:1.5rem;
-    padding:;
 }
 .major:hover .question {
     transition:0.5s;
@@ -83,7 +81,8 @@
 }
 /*sig*/
 .sig {
-    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    background-image: url(imgs/b.j.-lookin.jpg);
+    /*Caption, See. “Benjamin Franklin.” Look and Learn History Picture Library, www.lookandlearn.com/history-images/YW002024V/Benjamin-Franklin. Accessed 3 Dec. 2023.*/
     transition: 0.5s;
     background-size:cover;
     background-position:center center;
@@ -93,7 +92,6 @@
     font-family: 'Red Hat Display', sans-serif;
     transition: 0.5s;
     font-size:1.5rem;
-    padding:;
 }
 .sig:hover .question {
     transition:0.5s;
@@ -101,7 +99,8 @@
 }
 /*note*/
 .note {
-    background-image: url(imgs/b.j.-kite-carousel.jpg);
+    background-image: url(imgs/b.j.protrait.jpg);
+    /* ADodd. “Five Leadership Lessons from Benjamin Franklin.” Cydcor, 25 Sept. 2019, www.cydcor.com/five-leadership-lessons-from-benjamin-franklin/.*/
     transition: 0.5s;
     background-size:cover;
     background-position:center center;
@@ -111,7 +110,6 @@
     font-family: 'Red Hat Display', sans-serif;
     transition: 0.5s;
     font-size:1.5rem;
-    padding:;
 }
 .note:hover .question {
     transition:0.5s;
@@ -129,6 +127,7 @@ footer {
     box-shadow:5px 5px 5px darkslategrey;
     background-size:cover;
     background-position:center center;
+    /*video: YouTube, YouTube, 6 July 2016, https://www.youtube.com/watch?v=OnCacvIEfRo&amp;t=2s. Accessed 3 Dec. 2023.*/
 }
 .video .question {
     font-family: 'Red Hat Display', sans-serif;
@@ -137,5 +136,4 @@ footer {
 .video:hover .question {
     transition:0.5s;
     transform: scale(1.2);
-}
 }
